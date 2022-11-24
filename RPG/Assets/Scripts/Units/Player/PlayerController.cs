@@ -6,20 +6,19 @@ namespace RPG.Units.Player
 {
     public class PlayerController : MonoBehaviour
     {
-        private StatsAssistant _stats;
-
+        [SerializeField] private float _speedPlayer = 5f;
         private void Update()
         {
             var ad = Input.GetAxis("Horizontal");
             if (ad != 0)
             {
-                transform.position += _stats.GetSpeed() * ad * Time.deltaTime * Vector3.right;
+                transform.position += _speedPlayer * ad * Time.deltaTime * Vector3.right;
             }
 
             var ws = Input.GetAxis("Vertical");
             if (ws != 0)
             {
-                transform.position += _stats.GetSpeed() * Time.deltaTime * ws * Vector3.forward;
+                transform.position += _speedPlayer * Time.deltaTime * ws * Vector3.forward;
             }
         }
     }

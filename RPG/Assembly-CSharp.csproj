@@ -57,13 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enums.cs" />
-    <Compile Include="Assets\Scripts\Manadgers\Assistants\PlayerGameUIAssistant.cs" />
+    <Compile Include="Assets\Scripts\Managers\Assistants\PlayerGameUIAssistant.cs" />
     <Compile Include="Assets\Scripts\Units\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Manadgers\WorldManager.cs" />
-    <Compile Include="Assets\Scripts\Manadgers\InterfaceManager.cs" />
-    <Compile Include="Assets\Scripts\Manadgers\NPCManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\WorldManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\InterfaceManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\NPCManager.cs" />
     <Compile Include="Assets\Scripts\Structs.cs" />
-    <Compile Include="Assets\Scripts\Manadgers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Units\StatsAssistant.cs" />
   </ItemGroup>
   <ItemGroup>
